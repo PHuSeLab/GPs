@@ -1,2 +1,2 @@
 # GPs
-GPs with Edward
+GPs with Edward.
