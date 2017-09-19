@@ -1,2 +1,2 @@
 # GPs
-Gaussian Processe in Tensorflow and Edward.
+Gaussian Processes in Tensorflow and Edward.
