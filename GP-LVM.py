@@ -3,7 +3,6 @@ import tensorflow as tf
 import edward as ed
 import matplotlib
 import matplotlib.pyplot as pl
-import GPy
 
 #Radial Basis Function
 def tf_rbf(a,b,var,lengthscale):
