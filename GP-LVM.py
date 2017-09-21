@@ -34,7 +34,7 @@ for row in labels:
 
 colors = ['red','green','blue']
 
-init = tf.contrib.layers.xavier_initializer(uniform=False, seed=None, dtype=tf.float32)
+init = tf.contrib.layers.xavier_initializer(uniform=False, seed=None, dtype=tf.float32)	#Random Gaussian Initialization on the latent space 
 X = tf.get_variable("latent", shape=[ntrain,latentDim], initializer=init, trainable=True)
 Y = tf.placeholder(tf.float32, [ntrain, 12])
 
